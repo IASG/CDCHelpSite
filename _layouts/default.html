@@ -11,7 +11,7 @@ layout: table_wrappers
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="stylesheet" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}/assets/css/home.css">
+<link rel="stylesheet" href="{{prepend: site.url }}/assets/css/home.css">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -21,7 +21,7 @@ layout: table_wrappers
     <!-- style="padding-top: 10px; text-align:center;" -->
     <!-- <h1 style="text-align:center">Testing</h1> -->
     <h1>IASG's Cyber Defense Competition Help Site</h1>
-    <p>{{prepend: site.url }}</p>
+    <p>url:{{prepend: site.url }}</p>
   </div>
 
   <a class="skip-to-main" href="#main-content">Skip to main content</a>

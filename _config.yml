@@ -3,9 +3,11 @@ description: An under construction website for hosting information about the Cyb
 github_username: IASG
 youtube_channel: UC-rLOtGfHGx9N1mlNNEwJNQ
 discord: https://discord.gg/3xxec7V5zN
+name: Information Assurance Student Group
 theme: just-the-docs
 color_scheme: dark
 favicon_ico: "/CDCHelpSite/assets/images/favicon.ico"
+email: iasg-cabinet@iastate.edu
 
 footer_content: "<p>This is a test</p>"
 

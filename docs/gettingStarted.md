@@ -40,12 +40,6 @@ Common tips:
 - See what services are running using a tool like netstat and turn off/block ones that are not required in the scenario doc. It may be helpful to add a firewall.
 
 
-
-
-----
-
-
-
 [IASG]: https://iasg.github.io
 [Discord]: https://discord.gg/3xxec7V5zN
 [Signup]: http://signup.iseage.org

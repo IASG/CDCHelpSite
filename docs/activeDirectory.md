@@ -13,4 +13,3 @@ Some guides that have been put together to help you get it set up and working:
 
 [Ubuntu 14](https://gist.github.com/troyfontaine/dc8c9c9882188c24ca53)
 
-----

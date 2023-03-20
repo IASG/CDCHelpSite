@@ -10,4 +10,3 @@ This site is intended to provide resources for the Cyber Defense Competition at 
 
 Check out our club's main site [here](https://iasg.github.io).
 
-----

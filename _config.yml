@@ -7,8 +7,6 @@ theme: just-the-docs
 color_scheme: dark
 favicon_ico: "/CDCHelpSite/assets/images/favicon.ico"
 
-relative_url: "https://iasg.github.io/CDCHelpSite"
-
 footer_content: "<p>This is a test</p>"
 
 url: https://iasg.github.io/CDCHelpSite/

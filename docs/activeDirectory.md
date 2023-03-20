@@ -6,7 +6,6 @@ nav_order: 5
 
 Setting up and using Active Directory.
 
-
 Some guides that have been put together to help you get it set up and working:
 
 [Active Directory and Ubuntu Servers (14 and 16)](https://gist.github.com/iprietoISU/163c2f9073414c47079790d122bdf74d){:target="_blank"}

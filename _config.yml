@@ -12,3 +12,10 @@ callouts:
   warning:
     title: Warning
     color: red
+  information:
+    title: Information
+    color: purple
+  cli:
+    title: CLI
+    color: yellow
+  

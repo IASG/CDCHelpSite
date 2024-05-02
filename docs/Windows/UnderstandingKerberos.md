@@ -27,7 +27,7 @@ In the TGS-req, the TGT, realm, and sname are included. The TGT is used to authe
 
 Once the TGS receives the TGS-req, it fully authenticates the user and uses the information to generate a client/TGS session key. This session key can then be used by the client like a pass to allow access to a service. \[1\]
 
-### Possible Problems Popping Up
+# Possible Problems Popping Up
 
 As with all authentication methods, it has to work when the correct credentials are provided. This allows attackers to brute force common credentials. On top of this, Windows will say if preauth is enabled (important for AS-rep roasting later) or if the username is correct. \[2\]
 
@@ -41,9 +41,10 @@ Why does the session key need to be decrypted? can't we just use the TGT? Not qu
 1) The TGT and session key were sent together 
 2) The client knows the password in the AS that was used to encrypt the session key (AKA: their password)
 
-### Spotting and Defending
+# Spotting and Defending
 
-Ensuring preauth is on \[2\]:
+### Ensuring preauth is on \[2\]
+
 1. In the server manager, click on "Tools" in the upper right
 2. Click on "Active Directory Users and Computers"
 3. Click on the "Users" folder
@@ -54,10 +55,12 @@ Ensuring preauth is on \[2\]:
 8. For general security, all other options in that section should also be unchecked
 
 
-Auditing:
+### Auditing
+
 kerberos can be very hard to audit because it is made to look like a normal user is logging in. There are a couple clues that may show up in the Windows event log, though.
 
-Viewing logs:
+### Viewing logs
+
 1. Start by hitting the Windows key and searching for "Event Viewer"
 2. Click the result that pops up and wait for it to load
 3. Click the drop down by Windows Logs in the left pane
@@ -89,8 +92,8 @@ What to look for:
 - A large amount of preauth failures followed by a successful TGT request
 - The Administrator account getting a kerberos ticket (Green team only uses the given users, and you shouldn't be logging in with domain admin (DA) remotely other than domain joining)
 
-### Sources
+# Sources
 
-\[1\] Neuman, Dr.C. et al. (2005) RFC 4120: The Kerberos Network Authentication Service (v5), IETF Datatracker. Available at: https://datatracker.ietf.org/doc/html/rfc4120 (Accessed: 24 April 2024). 
+\[1\] Neuman, Dr.C. et al. (2005) *RFC 4120: The Kerberos Network Authentication Service (v5)*, *IETF Datatracker*. Available at: https://datatracker.ietf.org/doc/html/rfc4120 (Accessed: 24 April 2024). 
 
-\[2\] Evans, S. (2022) Exploiting kerberos for lateral movement & privilege escalation, Exploiting Kerberos for Lateral Movement and Privilege Escalation. Available at: https://www.nopsec.com/blog/exploiting-kerberos-for-lateral-movement-and-privilege-escalation/ (Accessed: 24 April 2024). 
+\[2\] Evans, S. (2022) *Exploiting kerberos for lateral movement & privilege escalation*, *NOPSEC*. Available at: https://www.nopsec.com/blog/exploiting-kerberos-for-lateral-movement-and-privilege-escalation/ (Accessed: 24 April 2024). 

@@ -2,6 +2,7 @@
 title: Network-Based Firewall
 layout: default
 nav_order: 3
+parent: Windows
 ---
 
 **Preamble**: Readers are assumed to have taken 230. Steps like adding VIPs, static DHCP leases, and how to allow a port will not be covered. Steps involving the deployment of machines on VSphere will also not be covered

@@ -2,6 +2,7 @@
 title: Understanding Kerberos
 layout: default
 nav_order: 2
+parent: Windows
 ---
 
 # Why Kerberos?

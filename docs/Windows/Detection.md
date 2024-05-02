@@ -2,6 +2,7 @@
 title: Detection
 layout: default
 nav_order: 7
+parent: Windows
 ---
 
 # Windows Security Logs

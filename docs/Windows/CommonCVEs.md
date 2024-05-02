@@ -2,6 +2,7 @@
 title: Common CVEs
 layout: default
 nav_order: 5
+parent: Windows
 ---
 
 # What is a CVE?

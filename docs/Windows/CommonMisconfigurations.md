@@ -2,6 +2,7 @@
 title: Common Misconfigurations
 layout: default
 nav_order: 6
+parent: Windows
 ---
 
 # Finding anomalies

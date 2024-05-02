@@ -1,6 +1,6 @@
 ---
 title: Host-Based Firewall
-layout: home
+layout: default
 nav_order: 4
 ---
 

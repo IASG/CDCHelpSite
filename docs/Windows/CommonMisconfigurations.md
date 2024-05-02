@@ -1,6 +1,6 @@
 ---
 title: Common Misconfigurations
-layout: home
+layout: default
 nav_order: 6
 ---
 

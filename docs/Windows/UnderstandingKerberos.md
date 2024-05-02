@@ -1,6 +1,6 @@
 ---
 title: Understanding Kerberos
-layout: home
+layout: default
 nav_order: 2
 ---
 

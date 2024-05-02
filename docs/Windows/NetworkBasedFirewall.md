@@ -1,6 +1,6 @@
 ---
 title: Network-Based Firewall
-layout: home
+layout: default
 nav_order: 3
 ---
 

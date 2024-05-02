@@ -1,7 +1,8 @@
 ---
 title: Windows
-layout: home
+layout: default
 nav_order: 1
+has_children: true
 ---
 
 # What is Windows?
